@@ -9,8 +9,8 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #333; /* Text color */
-  background-color: #f4f4f4; /* Page background color */
+  color: #ffffff; /* Text color */
+  background-color: #3d505f; /* Page background color */
   margin: 20px; /* Add some spacing around the page */
 }
 
@@ -19,32 +19,36 @@ body {
   max-width: 800px; /* Limit content width for readability */
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff; /* Content background color */
-  border: 1px solid #ddd; /* Add a subtle border */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  background-color: #00ffe1; /* Content background color */
+  border: 1px solid #0015ff; /* Add a subtle border */
+  box-shadow: 0 0 10px rgb(255, 103, 103); /* Add a shadow for depth */
 }
 
 /* Style headings */
 h1 {
   font-size: 28px;
   margin-bottom: 20px;
+  margin-top: 70px;
+  text-align: center;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 40px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 40px;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 /* Style paragraphs and lists */
 p {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 ul {
@@ -60,5 +64,5 @@ a {
 }
 
 a:hover {
-  color: #09ff00; /* Hover color */
+  color: #06b300; /* Hover color */
 }
